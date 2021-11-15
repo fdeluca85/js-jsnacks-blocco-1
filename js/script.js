@@ -33,19 +33,27 @@
 // Verificare tramite una funzione che le due parole abbiano la stessa lunghezza.
 // Se hanno la stessa lunghezza, stamparle entrambe altrimenti stampare la più lunga delle due.
 
-const  parola1 = prompt("inserisci una parola");
-const  parola2 = prompt("inserisci una parola");
-console.log(parola1);
-console.log(parola2);
+// const  parola1 = prompt("inserisci una parola");
+// const  parola2 = prompt("inserisci una parola");
+// console.log(parola1);
+// console.log(parola2);
 
-if   (parola1.length > parola2.length){
-console.log("la parola piú lunga è " + parola1); 
-}
-else if(parola1.length < parola2.length ){
-    console.log("la parola piú lunga è " + parola2);
-}
-else{
-     console.log(parola1 + " e " + parola2);
-}
+// if   (parola1.length > parola2.length){
+// console.log("la parola piú lunga è " + parola1); 
+// }
+// else if(parola1.length < parola2.length ){
+//     console.log("la parola piú lunga è " + parola2);
+// }
+// else{
+//      console.log(parola1 + " e " + parola2);
+// }
 
 
+// JSnack 3
+// Stampa le potenze di 2 fino a 1000.
+
+let potenza = 1;
+while (potenza < 1000) {
+    potenza = potenza * 2;
+    console.log(potenza);
+}
